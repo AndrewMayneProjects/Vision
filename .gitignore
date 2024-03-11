@@ -1,5 +1,2 @@
 .env
-images
-results
-altprompts.txt
-.gitignore
+.archive

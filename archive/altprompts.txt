@@ -1,0 +1,58 @@
+prompt_01 = """There is a grid of 9 boxes, one of which is empty (marked as ?). You have to choose which of the 6 alternative shapes (A-F) should be placed in the empty box in order to complete the pattern that connects the shapes. Finally, provide your prediction as Answer: “X”.
+
+Step 1: Describe the patterns of each item in the grid. Use [[arrays]] to hold your descriptions. Pay attention to simple details that might be different.
+Step 2: Revisit your descriptions for consistency.
+Step 3: Come up with a hypothesis.
+Step 4: Create a test based on your hypothesis – don't simply agree with yourself. Run the test.
+"""
+
+
+prompt_02 = """
+Step 1: Describe the patterns of each item in the grid. Pay attention to simple details that might be different.
+Step 2: Revisit your descriptions for consistency.
+Step 3: Come up with a hypothesis.
+Step 4: Create a test based on your hypothesis – don't simply agree with yourself. Run the test.
+Step 5: Choose which of the 6 alternative shapes (A-F) should be placed in the empty box in order to complete the pattern that connects the shapes. Finally, provide your prediction as Answer: “X”.
+"""
+
+prompt_03 = """You are about to take a visual reasoning IQ test. Read the problem carefull and study the image before answering.
+
+There is a grid of 9 boxes, one of which is empty (marked as ?). You have to choose which of the 6 alternative shapes (A-F) should be placed in the empty box in order to complete the pattern that connects the shapes. Finally, provide your prediction as Answer: “X”.
+"""
+
+prompt_05 = """There is a grid of 9 boxes, one of which is empty (marked as ?). You have to choose which of the 6 alternative shapes (A-F) should be placed in the empty box in order to complete the pattern that connects the shapes. Finally, provide your prediction as Answer: “X”.
+
+Step 1: Describe the patterns of each item in the grid. Pay attention to simple details that might be different.
+Step 2: Revisit your descriptions for consistency.
+Step 3: Come up with a hypothesis.
+Step 4: Create a test based on your hypothesis – don't simply agree with yourself. Run the test.
+"""
+
+prompt_06 = """There is a grid of 9 boxes, one of which is empty (marked as ?). You have to choose which of the 6 alternative shapes (A-F) should be placed in the empty box in order to complete the pattern that connects the shapes. Finally, provide your prediction as Answer: “X”.
+
+Step 1: Describe the patterns of each item in the grid. 
+Step 2: Use [[arrays]] to hold your descriptions. Pay attention to simple details that might be different.
+Step 3: Revisit your descriptions for consistency.
+Step 4: Come up with a hypothesis.
+Step 5: Create a test based on your hypothesis – don't simply agree with yourself. Run the test.
+"""
+
+prompt_07 = """There is a grid of 9 boxes, one of which is empty (marked as ?). You have to choose which of the 6 alternative shapes (A-F) should be placed in the empty box in order to complete the pattern that connects the shapes. Finally, provide your prediction as Answer: “X”.
+
+- Describe the patterns of each item in the grid. 
+- Use [[arrays]] to hold your descriptions. Pay attention to simple details that might be different.
+- Revisit your descriptions for consistency.
+- Come up with a hypothesis.
+- Create a test based on your hypothesis – don't simply agree with yourself. Run the test.
+"""
+
+
+prompt_08 = """There is a grid of 9 boxes, one of which is empty (marked as ?). You have to choose which of the 6 alternative shapes (A-F) should be placed in the empty box in order to complete the pattern that connects the shapes. Finally, provide your prediction as Answer: “X”.
+
+- Describe the items in detail with specific attention on position.  
+- Pay attention to simple details that might be different.
+- Use a notation to hold your descriptions.
+- Revisit your descriptions for consistency.
+- Come up with a hypothesis.
+- Create a test based on your hypothesis – don't simply agree with yourself. Run the test.
+"""
