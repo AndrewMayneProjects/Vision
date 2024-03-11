@@ -10,7 +10,7 @@ def count_correct_answers(file_path):
     return correct_count
 
 # Paths to the JSONL files
-modified_prompt_results_path = 'prompt_08_results_100.jsonl'
+modified_prompt_results_path = 'modified_prompt_results.jsonl'
 paper_prompt_results_path = 'paper_prompt_results.jsonl'
 
 # Counting correct answers
