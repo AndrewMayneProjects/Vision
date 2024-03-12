@@ -16,7 +16,8 @@ The tool operates by reading through JSONL files that contain the results of run
 ## Usage
 1. Ensure you have Python installed on your system.
 2. Place your JSONL files in the designated folders. By default, these are named modified_prompt_results.jsonl and paper_prompt_results.jsonl.
-3. Run the script using Python:
+3. Add your OpenAI API key to a .env as OPENAI_API_KEY
+4. Run the script using Python:
 
 ```
 python vision_test.py
